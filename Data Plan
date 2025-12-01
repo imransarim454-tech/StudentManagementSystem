@@ -1,0 +1,6 @@
+| **Operation**    | **Data Structure Used** | **Reason for Choosing the DS**                                     |
+| ---------------- | ----------------------- | ------------------------------------------------------------------ |
+| Push Item        | Stack                   | LIFO method fast add operations ke liye best hai (Undo/History).   |
+| Pop Item         | Stack                   | Last added element ko remove karna bohot easy hota hai.            |
+| Peek Top Element | Stack                   | Last item check karna without removing possible hota hai.          |
+
