@@ -1,0 +1,28 @@
+## 1. Push
+FUNCTION Push(item):
+    IF top == maxSize THEN
+        PRINT "Stack Overflow"
+    ELSE
+        top = top + 1
+        stack[top] = item
+END FUNCTION
+
+
+## 2. Pop
+FUNCTION Pop():
+    IF top == -1 THEN
+        PRINT "Stack Underflow"
+    ELSE
+        item = stack[top]
+        top = top - 1
+        RETURN item
+END FUNCTION
+
+
+## 3. Peek
+FUNCTION Peek():
+    IF top == -1 THEN
+        PRINT "Stack Empty"
+    ELSE
+        RETURN stack[top]
+END FUNCTION
